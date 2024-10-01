@@ -43,5 +43,5 @@ function showplace(){
   if (placeindex > placeyear.length) {placeindex = 1}
   placeyear[placeindex-1].style.display = "block";
   setTimeout(showplace, 4000);
-
+// 
 }
